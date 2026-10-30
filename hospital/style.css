@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgrey;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #023e8a;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+li a:hover {
+    background-color: #0077b6;
+}
+
+button {
+    background: #0077b6;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #023e8a;
+}
+
+.rotate {
+    transform: rotate(0deg);
+}
+
+form {
+    width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #023e8a;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 14px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    margin-top: 40px;
+}
